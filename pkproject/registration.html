@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+</head>
+<style>
+body{
+ background-image: url(./assests/pexels-8moments-1323550.jpg); 
+ background-size: cover;
+ background-attachment: fixed;
+ height: 100vh;
+ }
+ .had{
+    background-color: #1b6a8e;
+			justify-content: center;
+			align-items: center;
+			
+			display: flex;
+ }
+ h1 {
+			font-size: 90px;
+			white-space: nowrap;
+			overflow: hidden;
+			animation: typewriter 3s steps(22) infinite alternate,
+				blink 800ms steps(30) infinite normal;
+			border-right: 5px solid black;
+		}
+
+		@keyframes typewriter {
+			from {
+				width: 0%;
+                color: aqua;
+			}
+
+			to {
+				width: 50%;
+                color: blueviolet;
+			}
+            
+		}
+
+		@keyframes blink {
+			from {
+				border-color: white;
+			}
+
+			to {
+				border-color: greenyellow;
+			}
+		}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    align-content: center;
+    
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10px;
+    outline: none;
+    background-color: lightgray;
+    border: 2px solid darkred;
+    border-radius: 22px;
+  
+}
+.field input{
+    
+    border-radius: 20px ;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+</style>
+<body>
+    <div class="had">
+        <h1>vaccation booking</h1>
+    </div>
+<form action="" method="get">
+<div class="form">
+    <h3 style="color: blue;  text-transform: uppercase;">registration </h3>
+    <div class="field">
+        <div>
+        <label>username:</label>
+            <input type="text" name="username">
+    </div> 
+    <div>
+        <label>gender:</label><br>
+          Male:  <input type="radio" name="gender:">
+          Female:  <input type="radio" name="gender:">
+    </div>
+    <div>
+        <label>phonenumber:</label>
+            <input type="number" name="phonenumber">
+    </div>
+    <div>
+        <label>email:</label>
+            <input type="text" name="email">
+    </div>
+    <div>
+        <label>dob:</label>
+            <input type="date" name="dob">
+    </div>
+    <div>
+        <label>password:</label>
+            <input type="password" name="password">
+    </div>
+    <div>
+        <label>confirm password:</label>
+            <input type="confirm password" name="confirm password">
+    </div><br>
+    <button style="padding: 5px; margin: 3px;"> Submit </button>
+    <a href="./ssss.html" style="text-align: center;">Login</a>
+</div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

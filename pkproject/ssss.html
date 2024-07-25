@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+             background-color: lightskyblue; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            animation: multicolor 2s infinite;
+        }
+        /* @keyframes multicolor{
+            0%{
+                background-color: antiquewhite;
+            }
+            25%{
+                background-color: brown;
+            }
+           50% {
+            background-color: cyan;
+
+            } */
+        
+        /* .container{
+            border: 2px solid yellow;
+            box-sizing: border-box;
+        
+            
+        }
+.container img{
+     float: top;
+    padding: 12px;
+    margin-left: 12px;
+} */
+        .form{
+             display: flex; 
+        align-items: center;
+            flex-direction: column;
+            width: 450px;
+            gap:20px;
+            background-color: white;
+            padding: 20px;
+        }
+        .field{
+            display: flex;
+            flex-direction: column;
+            margin: 5px 10px;
+        }
+        .field input{
+            width:100%;
+            outline: none;
+            border: 2px solid black;
+            border-radius: 18px;
+            padding: 10px;
+        }
+        .user img{
+            width: 50px;
+        }
+        a{
+            text-align: center;
+            background-color: rgb(177, 188, 188);
+            width: 60%;
+            border-radius: 9px;
+            color: black;
+            text-decoration: none;
+        }
+        /* button{
+            border: none;
+            outline: none;
+            background-color: blueviolet;
+            width: 58%;
+            border-radius: 5px;
+            color: rgb(21, 135, 9);
+            cursor: pointer;
+            opacity: 0.8;
+           
+        }
+
+    button:hover{
+        opacity: 1;
+    } */
+
+
+
+    </style>    
+</head>
+<body>
+    
+   
+        
+<div style="display:inline-flex;  justify-content: space-between;">
+    <div style="display: inline-flex; flex-wrap: wrap; border-style: solid; width:55.4%;  border-radius: 22px;">
+        <img src="./assests/pexels-jimmy-teoh-294331-1010657.jpg" alt="" width="400" height="250" title="photo" style="border-radius: 22px;">
+        <img src="./assests/pexels-pixabay-46148.jpg" alt="" width="400" height="250" title="photo" style="border-radius: 22px;">
+        <img src="./assests/pexels-te-lensfix-380994-1371360.jpg" alt="" width="400"  height="250" title="photo" style="border-radius: 22px;">
+        <img src="./assests/pexels-thorsten-technoman-109353-338504.jpg" alt="" width="400" height="250"  title="photo" style="border-radius: 22px;">
+    </div>
+    
+
+
+        <div class="form">
+        <h3 style="text-decoration-style: solid;">WELCOME TO VACATION BOOKING LOGIN</h3>
+            <div class="user">
+                <img src="./assests/user.png">
+            </div>
+           
+    
+        <div class="field">
+            <label>User name</label>
+            <input type="text" name="user name">
+        </div>
+            <div class="field">
+            <label>password</label>
+            <input type="password" name="password">
+        </div>
+        
+            <a href="./home.html" >LOGIN</a>
+        
+        
+            <a href="./registration.html" >REGISTER</a>
+              
+        
+        
+</div>
+</div>
+    
+</body>
+</html>
